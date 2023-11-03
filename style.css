@@ -1,0 +1,27 @@
+*{
+    /*background: aquamarine;*/
+    /*font-family: cursive;*/
+    /*font-size: 24px;*/
+}
+.nav-item{
+    font-size: 15px;
+}
+#slider{
+    margin: 50px auto;
+    width: 30%;
+}
+#header, #about, #contact, #social-link, #location{
+    margin: 20px;
+    text-align: center;
+}
+.footer{
+    background:pink;
+    color:black;
+    text-align: center;
+    height: 2rem;
+}
+@media (max-width: 768px) {
+    .navbar {
+        min-height: 60px; /* Change the size as needed */
+    }
+}
